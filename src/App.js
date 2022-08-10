@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import React from 'react';
 import { Route, Routes } from 'react-router-dom'
 // import { BrowserRouter as Routes, Route, Link, Switch } from "react-router-dom";
 import Loan from './Components/LoansDetails/Loan';
