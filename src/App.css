@@ -7,10 +7,14 @@
 .load-container {
   height: 130vh;
 }
+.fn-size32 {
+  font-size: 18px
+}
 
 .flex-centre {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 .flex-row {
   display: flex;
@@ -48,6 +52,15 @@ input {
 }
 
 .btn {
-  width: 150px;
-  height: 40px;
+  width: 200px;
+  height: 60px;
+  font-size: 32px;
+  color: #fff;
+    background-color: #292a29;
+    border-radius: 3px;
+  }
+  
+  .btn:hover {
+    color: #292a29;
+    background-color: #fff;
 }
