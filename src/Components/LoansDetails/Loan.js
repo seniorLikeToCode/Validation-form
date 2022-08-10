@@ -3,7 +3,7 @@ import React from 'react';
 const LoanCard = () => {
     return (
         <div className='flex-centre load-container'>
-            <form action='http://localhost:9000/api/apply-loan' method='post'>
+            <form action='https://validation-form-senior.herokuapp.com/api/apply-loan' method='post'>
                 <h1 className='Main-heading'>Loan Application</h1>
                 <h2 className='secondary-heading'>Contact Information</h2>
 

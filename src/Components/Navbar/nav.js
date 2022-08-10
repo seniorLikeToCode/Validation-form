@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function NavBar() {
     return (
         <div className='flex-centre fn-size32'>
-            <Nav variant="tabs" defaultActiveKey="/personal-details">
+            <Nav variant="tabs" defaultActiveKey="/">
                 <Nav.Item>
                     <Nav.Link href="/" eventKey="key1">Personal Details</Nav.Link>
                 </Nav.Item>

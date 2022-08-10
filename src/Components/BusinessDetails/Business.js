@@ -4,7 +4,7 @@ import React from 'react';
 const BusinessCard = () => {
     return (
         <div className='flex-centre load-container'>
-            <form action='http://localhost:9000/api/business-details' method='post'>
+            <form action='https://validation-form-senior.herokuapp.com/api/business-details' method='post'>
                 <h1 className='Main-heading'>Business details</h1>
 
                 {/* <h3> Title :</h3> */}
